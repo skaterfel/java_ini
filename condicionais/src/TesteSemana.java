@@ -29,6 +29,6 @@ public class TesteSemana {
 		default:
 			break;
 		}
-		System.out.println("Hoje é " + diaSemana + "! O " + dia + "º dia da semana");
+		System.out.println("Hoje é " + diaSemana.to + "! O " + dia + "º dia da semana");
 	}
 }
