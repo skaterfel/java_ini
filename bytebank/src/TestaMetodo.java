@@ -7,5 +7,8 @@ public class TestaMetodo {
 		contaDoFelipe.deposita(29);
 		contaDoFelipe.deposita(342);
 		System.out.println(contaDoFelipe.saldo);
+		
+		System.out.println(contaDoFelipe.saca(20));
+		System.out.println(contaDoFelipe.saldo);
 	}
 }
