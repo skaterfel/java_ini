@@ -16,5 +16,9 @@ public class TestaMetodo {
 		contaDoFelipe.transfere(300, contaDoIori);
 		System.out.println("Conta Iori: " + contaDoIori.saldo);
 		System.out.println("Conta Felipe: " + contaDoFelipe.saldo);
+		
+		contaDoFelipe.titular = "Felipe Leandro de Melo";
+		System.out.println(contaDoFelipe.titular);
+		System.out.println(contaDoIori.titular = "Iori Bueno de Melo");
 	}
 }
