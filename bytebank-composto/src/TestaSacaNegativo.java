@@ -6,12 +6,12 @@ public class TestaSacaNegativo {
 	
 		conta.deposita(100);
 		conta.deposita(100);
-		System.out.println(conta.saca(101));
+		System.out.println(conta.saca(222));
 		//System.out.println(conta.saldo); 
 		
 		// conta.saldo -= 101;
 		//System.out.println(conta.saldo);
-		System.out.println(conta.mostraSaldo());
+		System.out.println(conta.getSaldo());
 		
 	}
 }

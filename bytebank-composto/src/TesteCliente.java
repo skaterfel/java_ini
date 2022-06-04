@@ -1,6 +1,6 @@
 
 public class TesteCliente {
 	String nome;
-    private String cpf;
+    String cpf;
     int idade;
 }
