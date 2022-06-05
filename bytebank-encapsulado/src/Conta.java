@@ -4,12 +4,14 @@ public class Conta {
 	private int agencia;
 	private int numero;
 	private Cliente titular;
-	
+	private static int total;
 	
 	
 	
 	
 	public Conta(int agencia,int numero) {	
+		Conta.total++;
+		System.out.println("O total de contas abertas no ByTeBank é de: " + total);
 		this.agencia = agencia;
 		this.numero = numero;
 		
@@ -76,6 +78,10 @@ public class Conta {
 
 	public Cliente getTitular() {
 		return titular;
+	}
+	
+	public static int getTotal() {
+		return total;
 	}
 
 }
