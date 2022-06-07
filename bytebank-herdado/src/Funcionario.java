@@ -8,9 +8,8 @@ public abstract class Funcionario {
 		
 	}
 	
-	public double getBonificacao() {
-		return this.salario * 0.05;
-	}
+	// Metodo sem Corpo!!!
+	public abstract double getBonificacao();
 	
 	public String getNome() {
 		return nome;
