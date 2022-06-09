@@ -1,10 +1,9 @@
 
-public class Administrador extends Funcionario {
+public class Administrador extends FuncionarioAutenticavel {
 
 	@Override
 	public double getBonificacao() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 50;
 	}
 
 }

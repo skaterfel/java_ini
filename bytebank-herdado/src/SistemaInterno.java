@@ -3,13 +3,13 @@ public class SistemaInterno {
 	
 	private int senha = 2209;
 	
-	public void autentica(Gerente g) {
-		boolean autenticou = g.autentica(this.senha);
+	public void autentica(FuncionarioAutenticavel fa) {
+		boolean autenticou = fa.autentica(this.senha);
 		if (autenticou) {
-			System.out.println("Pode entrar " + g.getNome());
+			System.out.println("Pode entrar " + fa.getNome());
 			
 		} else {
-			System.out.println("Senha incorreta. Tente novamente.");
+			System.out.println(fa.getNome() + " X Senha incorreta. Tente novamente.");
 		}
 	}
 }
