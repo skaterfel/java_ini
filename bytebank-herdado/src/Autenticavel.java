@@ -1,18 +1,13 @@
+// Contrato Autenticavel
+	// Quem assina esse contrato, precisa implementar:
+		// Metodo setSenha
+		// Metodo Autentica
 
-public abstract class FuncionarioAutenticavel extends Funcionario {
 
-	private int senha;
+public abstract interface Autenticavel {
 
-	public void setSenha(int senha) {
-		this.senha = senha;
-	}
+	public abstract void setSenha(int senha);
 
-	public boolean autentica(int senha) {
-		if (this.senha == senha) {
-			return true;
-		} else {
-			return false;
-		}
-	}
+	public abstract boolean autentica(int senha);
 
 }

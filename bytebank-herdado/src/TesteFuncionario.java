@@ -10,6 +10,10 @@ public class TesteFuncionario {
 //		System.out.println(felipe.getNome());
 //		System.out.println(felipe.getBonificacao());
 		
+		Cliente cl = new Cliente();
+		
+		
+		
 		
 
 	}

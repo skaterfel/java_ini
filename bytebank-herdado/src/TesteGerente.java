@@ -3,6 +3,8 @@ public class TesteGerente {
 
 	public static void main(String[] args) {
 		
+		Autenticavel g2 = new Gerente();
+		
 		Gerente g1 = new Gerente();
 
 		g1.setCpf("1230902912");
