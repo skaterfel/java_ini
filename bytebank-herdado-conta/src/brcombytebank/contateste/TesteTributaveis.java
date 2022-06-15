@@ -1,3 +1,7 @@
+package brcombytebank.contateste;
+import brcombytebank.contaherdado.CalculadorImposto;
+import brcombytebank.contaherdado.ContaCorrente;
+import brcombytebank.contaherdado.SeguroDeVida;
 
 public class TesteTributaveis {
 

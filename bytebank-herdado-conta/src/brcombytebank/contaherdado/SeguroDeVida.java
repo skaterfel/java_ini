@@ -1,3 +1,4 @@
+package brcombytebank.contaherdado;
 
 public class SeguroDeVida implements Tributavel {
 

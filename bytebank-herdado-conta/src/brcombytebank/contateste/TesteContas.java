@@ -1,3 +1,7 @@
+package brcombytebank.contateste;
+import brcombytebank.contaherdado.ContaCorrente;
+import brcombytebank.contaherdado.ContaPoupanca;
+import brcombytebank.contaherdado.SaldoInsulficienteException;
 
 public class TesteContas {
 

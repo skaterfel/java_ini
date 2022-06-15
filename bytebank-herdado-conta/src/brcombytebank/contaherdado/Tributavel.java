@@ -1,3 +1,4 @@
+package brcombytebank.contaherdado;
 
 public interface Tributavel {
 	
