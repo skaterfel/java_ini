@@ -12,8 +12,20 @@ public class Teste {
 	public static void main(String[] args) {
 		// introdução java.util | ArrayList
 		
+		
+		//Generics 
 		ArrayList<Conta> list = new ArrayList<Conta>();
+		
+		
+		
+		
 		 // Tipagem com <> do tipo de referencia
+		
+		
+		
+		
+		
+		
 	//	Cliente cliente = new Cliente();
 	// 	list.add(cliente);
 		
