@@ -3,6 +3,7 @@ package brcombytebank.conta.util;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import brcombytebank.contaherdado.Cliente;
 import brcombytebank.contaherdado.Conta;
 import brcombytebank.contaherdado.ContaCorrente;
 
@@ -11,7 +12,10 @@ public class Teste {
 	public static void main(String[] args) {
 		// introdução java.util | ArrayList
 		
-		ArrayList list = new ArrayList();
+		ArrayList<Conta> list = new ArrayList<Conta>();
+		 // Tipagem com <> do tipo de referencia
+	//	Cliente cliente = new Cliente();
+	// 	list.add(cliente);
 		
 		Conta cc = new ContaCorrente(11, 22);
 		list.add(cc);
@@ -20,7 +24,7 @@ public class Teste {
 		list.add(cc2);
 		
 		System.out.println("Tamanho: "+list.size());
-		Conta ref = (Conta) list.get(0);
+		Conta ref = list.get(0);
 		
 		System.out.println(ref.getNumero());
 
@@ -41,8 +45,8 @@ public class Teste {
 		
 		
 		System.out.println("----------------------");
-		for(Object oRef : list) {
-			System.out.println(oRef);
+		for(Conta conta : list) {
+			System.out.println(conta);
 		}
 		
 		
