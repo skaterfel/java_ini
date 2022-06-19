@@ -2,33 +2,22 @@ package brcombytebank.conta.util;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 import brcombytebank.contaherdado.Cliente;
 import brcombytebank.contaherdado.Conta;
 import brcombytebank.contaherdado.ContaCorrente;
 
-public class Teste {
+public class TesteLinkledList {
 
 	public static void main(String[] args) {
 		// introdução java.util | ArrayList
 		
 		
 		//Generics 
-		ArrayList<Conta> list = new ArrayList<Conta>();
-		
-		
-		
-		
-		 // Tipagem com <> do tipo de referencia
-		
-		
-		
-		
-		
-		
-	//	Cliente cliente = new Cliente();
-	// 	list.add(cliente);
-		
+		List<Conta> list = new LinkedList<Conta>();
+				
 		Conta cc = new ContaCorrente(11, 22);
 		list.add(cc);
 		
