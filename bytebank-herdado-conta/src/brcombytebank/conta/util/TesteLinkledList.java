@@ -1,12 +1,8 @@
 package brcombytebank.conta.util;
 
-import java.util.ArrayList;
-import java.util.Vector;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-import brcombytebank.contaherdado.Cliente;
 import brcombytebank.contaherdado.Conta;
 import brcombytebank.contaherdado.ContaCorrente;
 

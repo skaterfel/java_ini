@@ -1,6 +1,6 @@
 package brcombytebank.contaherdado;
 
-public abstract class Conta {
+public abstract class Conta implements Comparable<Conta>{
 	protected double saldo;
 	private int agencia;
 	private int numero;
@@ -83,8 +83,15 @@ public abstract class Conta {
 	public String toString() {
 
 		
-		return "Numero: " + this.numero + ", Ag: " + this.agencia;
+		return "Numero: " + this.numero + ", Ag: " + this.agencia + " Saldo: R$" + this.saldo;
 	}
+	
+	@Override
+	public int compareTo(Conta c) {
+		
+		return Double.compare(this.saldo, c.saldo);
+	}
+	
 	
 	
 	@Override
