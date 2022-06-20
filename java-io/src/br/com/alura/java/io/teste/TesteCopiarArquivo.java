@@ -18,6 +18,7 @@ public class TesteCopiarArquivo {
 		//socket.getInputStream();
 		//socket.getOutputStream();
 		// fluxo de entrada com arquivo
+		
 		InputStream fis = System.in; // new FileInputStream("lorem.txt");
 		InputStreamReader isr = new InputStreamReader(fis);
 		BufferedReader br = new BufferedReader(isr);

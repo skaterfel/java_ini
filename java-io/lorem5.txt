@@ -1,0 +1,4 @@
+BOM DIA PRIMEIRA LINHA USANDO WRITER, agora usando FileWriter
+
+BOM DIA 'Segunda!' LINHA USANDO WRITER, agora usando FileWriter
+BOM DIA 'Segunda!' LINHA USANDO WRITER, agora usando FileWriter osidhkjashdfjkahsdlkjfhasldkjhfalkjsd
