@@ -19,18 +19,16 @@ public class TesteLeitura2 {
 			linhaScanner.useLocale(Locale.US);
 			linhaScanner.useDelimiter(",");
 			
-			String valor1 = linhaScanner.next();
-			int valor2 = linhaScanner.nextInt();
-			int valor3 = linhaScanner.nextInt();
-			String valor4 = linhaScanner.next();
-			double valor5 = linhaScanner.nextDouble();
+			String tipoConta = linhaScanner.next();
+			int agencia = linhaScanner.nextInt();
+			int numero = linhaScanner.nextInt();
+			String titular = linhaScanner.next();
+			double saldo = linhaScanner.nextDouble();
 			
-			System.out.println(valor1);
-			System.out.println(valor2);
-			System.out.println(valor3);
-			System.out.println(valor4);
-			System.out.println(valor5);
-			System.out.println("--------");
+			String valorFormatado = String.format("%s - %04d<->%06d %s R$ %.2f %n", 
+					tipoConta, agencia, numero, titular, saldo);
+			
+			System.out.println(valorFormatado);
 			
 			
 			linhaScanner.close();
