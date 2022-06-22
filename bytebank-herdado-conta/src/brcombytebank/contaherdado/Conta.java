@@ -1,10 +1,12 @@
 package brcombytebank.contaherdado;
 
-public abstract class Conta implements Comparable<Conta>{
+import java.io.Serializable;
+
+public abstract class Conta implements Comparable<Conta>, Serializable{
 	protected double saldo;
 	private int agencia;
 	private int numero;
-	private Cliente titular;
+	private transient Cliente titular;
 	private static int total;
 	
 	

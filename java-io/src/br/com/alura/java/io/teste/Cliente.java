@@ -1,7 +1,10 @@
-package brcombytebank.contaherdado;
-
-
-public class Cliente {
+package br.com.alura.java.io.teste;
+public class Cliente implements java.io.Serializable {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 9205117266306915548L;
 	private String nome;
 	private String cpf;
 	private String profissao;

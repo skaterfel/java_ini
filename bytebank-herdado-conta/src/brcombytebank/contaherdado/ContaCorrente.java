@@ -1,4 +1,7 @@
 package brcombytebank.contaherdado;
+
+import java.io.Serializable;
+
 public class ContaCorrente extends Conta implements Tributavel{
 	
 	//
